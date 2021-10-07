@@ -1,0 +1,161 @@
+@import "./queries";
+/* ESTILOS GENERALES*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: #DAE3E5;
+    min-height: 140px;
+
+    @include movil{
+        padding: 30px 0px 30px 0px;
+    }
+
+    @include tablet {
+        padding: 30px 0px 30px 0px;
+    }
+}
+
+
+.logo{
+    width: 250px;
+}
+
+/*BOTONES*/
+
+.btn-outline-info {
+    color: #A1C6EA;
+    border-color: #A1C6EA;
+}
+
+.btn-outline-info:hover{
+    color:white;
+    background: #A1C6EA;
+    border-color: #A1C6EA;
+}
+
+
+/*INDEX*/
+
+.hero{
+    height: auto;
+    @include movil {
+        padding-top: 20px;
+        }
+}
+
+ @include movil{
+
+    .margen-index{
+        margin: 70px 0px 40px 0px;
+    }
+
+ }
+
+
+
+/*SECCIÓN PLANES*/
+
+
+.padding-planes{
+    padding: 20px 12px 40px 12px;
+}
+
+
+@include movil {
+    .planes{
+        height: 80vh;
+    }
+}
+
+    
+
+/*SECCIÓN CARTILLA*/
+
+.padding-cartilla{
+    padding: 20px 12px 40px 12px;
+}
+
+.fondo-plan-bronce{
+    background-image: linear-gradient(to right, #cd7f32, white);
+}
+
+.fondo-plan-plateado{
+    background-image: linear-gradient(to right, #75797c, white);
+}
+
+.fondo-plan-dorado{
+    background-image: linear-gradient(to right, #efb810, white);
+}
+
+
+@include movil {
+
+    .altura{
+        height: 45vh;
+    }
+}
+
+    
+
+/*SECCIÓN CARTILLA Y PLANES*/
+
+.bronce:hover{
+    background-image: linear-gradient(to right, #cd7f32, white);
+    color: black;
+   /* background-color: #cd7f32;*/
+}
+
+
+
+.plateado:hover{
+    background-image: linear-gradient(to right, #e3e4e5, white);
+    color: black;
+
+/*     background-color: #e3e4e5;
+ */}
+
+ 
+.dorado:hover{
+    background-image: linear-gradient(to right, #efb810, white);
+    color: black;
+
+/*     background-color: #efb810;
+ */}
+
+
+ /*SECCIÓN CONTACTO*/
+
+.padding-contacto{
+    padding: 20px 12px 40px 12px;
+}
+
+@include movil {
+    .tamano-text{
+        width:90%;
+    }
+}
+
+
+
+
+/*SECCIÓN QUIENES SOMOS*/
+    
+@include movil {
+
+    .altura-qsomos{
+        height: 70vh;
+    }
+}        
+
+    
+
+
+
+

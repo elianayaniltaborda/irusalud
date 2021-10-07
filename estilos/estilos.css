@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* ESTILOS GENERALES*/
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #DAE3E5;
+  min-height: 140px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  footer {
+    padding: 30px 0px 30px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  footer {
+    padding: 30px 0px 30px 0px;
+  }
+}
+
+.logo {
+  width: 250px;
+}
+
+/*BOTONES*/
+.btn-outline-info {
+  color: #A1C6EA;
+  border-color: #A1C6EA;
+}
+
+.btn-outline-info:hover {
+  color: white;
+  background: #A1C6EA;
+  border-color: #A1C6EA;
+}
+
+/*INDEX*/
+.hero {
+  height: auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .hero {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .margen-index {
+    margin: 70px 0px 40px 0px;
+  }
+}
+
+/*SECCIÓN PLANES*/
+.padding-planes {
+  padding: 20px 12px 40px 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .planes {
+    height: 80vh;
+  }
+}
+
+/*SECCIÓN CARTILLA*/
+.padding-cartilla {
+  padding: 20px 12px 40px 12px;
+}
+
+.fondo-plan-bronce {
+  background-image: -webkit-gradient(linear, left top, right top, from(#cd7f32), to(white));
+  background-image: linear-gradient(to right, #cd7f32, white);
+}
+
+.fondo-plan-plateado {
+  background-image: -webkit-gradient(linear, left top, right top, from(#75797c), to(white));
+  background-image: linear-gradient(to right, #75797c, white);
+}
+
+.fondo-plan-dorado {
+  background-image: -webkit-gradient(linear, left top, right top, from(#efb810), to(white));
+  background-image: linear-gradient(to right, #efb810, white);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .altura {
+    height: 45vh;
+  }
+}
+
+/*SECCIÓN CARTILLA Y PLANES*/
+.bronce:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#cd7f32), to(white));
+  background-image: linear-gradient(to right, #cd7f32, white);
+  color: black;
+  /* background-color: #cd7f32;*/
+}
+
+.plateado:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#e3e4e5), to(white));
+  background-image: linear-gradient(to right, #e3e4e5, white);
+  color: black;
+  /*     background-color: #e3e4e5;
+ */
+}
+
+.dorado:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#efb810), to(white));
+  background-image: linear-gradient(to right, #efb810, white);
+  color: black;
+  /*     background-color: #efb810;
+ */
+}
+
+/*SECCIÓN CONTACTO*/
+.padding-contacto {
+  padding: 20px 12px 40px 12px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .tamano-text {
+    width: 90%;
+  }
+}
+
+/*SECCIÓN QUIENES SOMOS*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .altura-qsomos {
+    height: 70vh;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
