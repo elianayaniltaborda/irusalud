@@ -15,6 +15,7 @@ footer{
 
     @include movil{
         padding: 30px 0px 30px 0px;
+        
     }
 
     @include tablet {
@@ -58,6 +59,12 @@ footer{
 
  }
 
+ @include movil {
+
+    .size-img-index{
+        width:460px;
+    }
+}
 
 
 /*SECCIÓN PLANES*/
@@ -70,9 +77,10 @@ footer{
 
 @include movil {
     .planes{
-        height: 80vh;
+        height: 180vh;
     }
 }
+
 
     
 
@@ -141,8 +149,6 @@ footer{
         width:90%;
     }
 }
-
-
 
 
 /*SECCIÓN QUIENES SOMOS*/
